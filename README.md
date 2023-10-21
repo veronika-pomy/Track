@@ -1,2 +1,2 @@
-# Track - Bug Tracker App
+# Track: A Bug Tracker App
 
