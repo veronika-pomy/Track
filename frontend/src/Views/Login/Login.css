@@ -1,0 +1,43 @@
+.login-bg {
+    width: 100vw;
+    height: 100vh;
+    grid-column: 1/2;
+    background-color: var(--primary-color);
+    color: var(--txt-color);
+    position: absolute;
+}
+
+.login-form {
+    background-color: var(--form-color);
+    color: var(--txt-color-input);
+    width: 350px;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    margin: 50vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translate(0, -50%);
+}
+
+.login-user{
+    width: 100%;
+    text-align: center;
+}
+
+.login-input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding-left: 5px;
+    background-color: var(--input-field);
+}
+
+.login-input::placeholder {
+    padding: none;
+    color: var(--txt-color-input);
+}

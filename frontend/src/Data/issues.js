@@ -1,6 +1,6 @@
 import issueModel from '../Models/issueModel';
 
-export function getIssues () {
+export function getIssuesData () {
     let data = [];
     data.push(new issueModel({
         _id: 342384848,
