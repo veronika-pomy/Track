@@ -5,7 +5,7 @@ import Login from './Views/Login/Login';
 function App() {
 
   // grabbing date from state using redux hook to determine login status
-  const {auth} = useSelector(state => state);
+  const { auth } = useSelector(state => state);
 
   return (
     <>

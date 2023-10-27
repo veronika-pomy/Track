@@ -1,13 +1,13 @@
 :root {
-    background-color: #5E548E;
-}
-html {
-    margin-left: 20vw;
+    display: grid;
+    grid-template-columns: 20% 80%;
     --primary-color: #5E548E;
     --form-color: #e2dbec;
     --txt-color: #fff;
     --txt-color-input: #231942;
     --input-field: #f0f8ff;
+    background-color: #5E548E;
+    margin: 0;
 }
 
 button {

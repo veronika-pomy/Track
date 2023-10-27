@@ -1,11 +1,9 @@
 .login-bg {
     width: 100vw;
     height: 100vh;
+    grid-column: 1/2;
     background-color: var(--primary-color);
     color: var(--txt-color);
-    margin-left: -20.6vw;
-    margin-top: -28px;
-    background-attachment: fixed;
     position: absolute;
 }
 
@@ -17,11 +15,11 @@
     border-radius: 1rem;
     overflow: hidden;
     text-decoration: none;
-    margin: 25vw auto;
+    margin: 50vh auto;
     display: flex;
-
     flex-wrap: wrap;
     justify-content: center;
+    transform: translate(0, -50%);
 }
 
 .login-user{
