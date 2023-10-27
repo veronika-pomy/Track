@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getIssues } from '../../Data/issues';
+import { getIssuesData } from '../../Data/issues';
 
 const slice = createSlice({
     name: 'issue',
     initialState: [],
     reducers: {
         getIssues: (state) => {
-            getIssues();
+            getIssuesData();
         },
         createIssue: (state, actions) => {
 

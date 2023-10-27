@@ -1,0 +1,29 @@
+:root {
+    background-color: #5E548E;
+}
+html {
+    margin-left: 20vw;
+    --primary-color: #5E548E;
+    --form-color: #e2dbec;
+    --txt-color: #fff;
+    --txt-color-input: #231942;
+    --input-field: #f0f8ff;
+}
+
+button {
+    background-color: #9A93C0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #231942;
+    font: normal bold 20px "Open Sans, sans sarif";
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    transition: all 0.4s;
+    background-color: #231942;
+    color: #9A93C0;
+
+}

@@ -5,10 +5,10 @@ const slice = createSlice({
     initialState: [{}],
     reducers: {
         getUser: (state) => {
-            state.push({name: "Veronika"});
-            state.push({name: "Jon W Jay"});
-            state.push({name: "Tony"});
-            state.push({name: "Amy S."});
+            state.push({name: "Veronika", email: 'veronika@test.com'});
+            state.push({name: "Jon W Jay", email: 'john342@email.com'});
+            state.push({name: "Tony", email: 'motocyclelover@email.com'});
+            state.push({name: "Amy S.", emai: 'amys@email.com'});
         }
     }
 })
