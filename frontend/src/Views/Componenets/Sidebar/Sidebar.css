@@ -1,0 +1,44 @@
+.sidebar {
+    position: fixed;
+    grid-column: 1;
+    width: 20%;
+    height: 100vh;
+    background-color: var(--card-color);
+    text-align: center;
+
+}
+
+.sidebar-nav-link {
+    text-decoration: none;
+    color: #fff
+}
+
+.sidebar-nav-link:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: var(--txt-color-input);
+}
+
+.sidebar-nav-link h1 {
+    padding: 10px;
+    border-bottom: 1px groove #fff;
+    text-decoration: none;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 0px;
+}
+
+.logo {
+    font-size: 2.6rem;
+}
+
+.logo:hover {
+    color: #fff;
+}
