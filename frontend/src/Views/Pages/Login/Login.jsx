@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { logIn } from '../../Controllers/Redux/authSlice'
+import { logIn } from '../../../Controllers/Redux/authSlice'
 import './Login.css';
 
 function Login () {

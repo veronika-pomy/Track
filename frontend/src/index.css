@@ -1,29 +1,35 @@
-:root {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
     display: grid;
     grid-template-columns: 20% 80%;
-    --primary-color: #5E548E;
-    --form-color: #e2dbec;
+    --primary-color: #002043;
+    --form-color: #7889a794;
     --txt-color: #fff;
-    --txt-color-input: #231942;
+    --txt-color-input: #0d1523;
     --input-field: #f0f8ff;
-    background-color: #5E548E;
-    margin: 0;
+    --card-color: #5E91AC;
+    background-color: #002043;
 }
 
 button {
-    background-color: #9A93C0;
+    background-color: #fda98aa0;
     border: none;
     border-radius: 5px;
-    padding: 5px 20px;
-    color: #231942;
+    padding: 1px 30px;
+    color: #701634;
     font: normal bold 20px "Open Sans, sans sarif";
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 button:hover {
     transition: all 0.4s;
-    background-color: #231942;
+    background-color: #002043;
     color: #9A93C0;
 
 }
