@@ -33,7 +33,7 @@ function Login () {
             className='login-form'
         >
             <h1 className="login-user">
-                User Login:
+                User Login
             </h1>
             <input 
                 type="text"
